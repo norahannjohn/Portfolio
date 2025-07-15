@@ -1,0 +1,155 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #080808;
+  color: #fff;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  color: #00e5ff;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+/* Home Section */
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0d0d0d;
+  padding: 40px;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #00e5ff;
+}
+
+.content p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.image {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.image img {
+  max-width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.2);
+}
+
+/* About Section */
+#about {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+/* Certificates Section */
+#certificates .certificate-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.certificate-card {
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+  width: 260px;
+  box-shadow: 0 0 12px rgba(0, 229, 255, 0.3);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.certificate-card:hover {
+  transform: scale(1.05);
+}
+
+.certificate-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.certificate-card p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #00e5ff;
+}
+
+/* Contact Section */
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#contact input,
+#contact textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #1a1a1a;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  resize: none;
+}
+
+#contact button {
+  padding: 12px;
+  background: #00e5ff;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-weight: bold;
+}
+
+#contact button:hover {
+  background: #00c0cc;
+}
+
+/* Chatbot Placeholder */
+.chatbot {
+  text-align: center;
